@@ -4,7 +4,9 @@ Aplicação web de CRM comercial B2B para prospecção e gestão de clientes do 
 
 ## Privacidade dos dados
 
-Este repositório contém o código-fonte e não inclui a base de empresas, telefones, endereços ou outros dados comerciais. O arquivo local `private-data/companies.json` é mantido fora do GitHub. O CRM publicado usa o banco D1 privado do Sites; este repositório não transfere nem substitui os dados que já estão nesse banco.
+Este repositório contém código-fonte e não inclui a base de empresas, telefones, endereços ou outros dados comerciais. O arquivo local `private-data/companies.json` foi omitido. O CRM publicado usa o banco D1 privado do Sites; enviar este código ao GitHub não transfere nem substitui os dados já armazenados nesse banco.
+
+Uma nova instalação a partir deste repositório começa sem a lista de empresas. Mantenha qualquer base de clientes ou leads fora do GitHub e carregue-a apenas por um processo privado e controlado.
 
 ## Desenvolvimento
 
@@ -16,7 +18,7 @@ npm run build
 npm run dev
 ```
 
-A publicação do Site continua vinculada ao projeto existente em Sites e deve preservar os bindings e configurações registrados em `.openai/hosting.json`.
+A publicação do Site permanece vinculada ao projeto existente em Sites. Preserve os bindings e as configurações declarados em `.openai/hosting.json`.
 
 ## Estrutura
 
